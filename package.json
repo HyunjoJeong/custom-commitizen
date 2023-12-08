@@ -5,7 +5,7 @@
     "git": "git add . && cz && git push"
   },
   "devDependencies": {
-    "commitizen": "4.2.4",
+    "commitizen": "4.2.6",
     "cz-customizable": "^7.0.0"
   }
 }
