@@ -1,27 +1,27 @@
 module.exports = {
   types: [
-    { value: "✨ Feat", name: "✨ Feat:\tAdd a new feature" },
-    { value: "🐛 Modify", name: "🐛 Fix:\tModify production, UI,UX code" },
-    { value: "📝 Docs", name: "📝 Docs:\tAdd or update documentation" },
+    { value: "✨ feat", name: "✨ feat:\tAdd a new feature" },
+    { value: "🐛 modify", name: "🐛 fix:\tModify production, UI,UX code" },
+    { value: "📝 docs", name: "📝 docs:\tAdd or update documentation" },
     {
-      value: "💄 Style",
-      name: "💄 Style:\tAdd or update code format (not updation production, UI,UX code)",
+      value: "💄 style",
+      name: "💄 style:\tAdd or update code format (not updation production, UI,UX code)",
     },
     {
-      value: "🤖 Refactor",
-      name: "🤖 Refactor:\tCode change that neither fixes a bug nor adds a feature",
+      value: "🤖 refactor",
+      name: "🤖 refactor:\tCode change that neither fixes a bug nor adds a feature",
     },
     {
-      value: "✅ Test",
-      name: "✅ Test:\tCode change related with tests cases",
+      value: "✅ rest",
+      name: "✅ rest:\tCode change related with tests cases",
     },
     {
-      value: "🚚 Chore",
-      name: "🚚 Chore:\tChanges to the build process or auxiliary tools\n\t\tand libraries such as documentation generation",
+      value: "🚚 chore",
+      name: "🚚 chore:\tChanges to the build process or auxiliary tools\n\t\tand libraries such as documentation generation",
     },
   ],
   allowCustomScopes: false,
   allowBreakingChanges: ["feat", "fix"],
-  skipQuestions: ["body"],
+  skipQuestions: ["body", "issue"],
   subjectLimit: 100,
 };
