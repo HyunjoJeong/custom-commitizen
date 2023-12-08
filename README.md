@@ -5,14 +5,15 @@ Copy and Paste if you need!
 
 ## Quick User Guide
 
-Place .czrc, .cz-config.js file on your top directory.  
-You can customize yourself by modifying .cz-config.js file.  
-More detailed guide on cz-customizable github page.  
-You need to install two libraries: commitizen, cz-customizable
+######You need to install two libraries: `commitizen`, `cz-customizable`
 
 ```bash
   npm i -D commitizen cz-customizable
 ```
+
+Place `.czrc`, `.cz-config.js` file on your top directory.  
+You can customize yourself by modifying `.cz-config.js` file.  
+More detailed customizing guide on [here](https://github.com/leoforfree/cz-customizable).
 
 ## More Info
 
