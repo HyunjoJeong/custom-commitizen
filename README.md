@@ -5,7 +5,7 @@ Copy and Paste if you need!
 
 ## Quick User Guide
 
-######You need to install two libraries: `commitizen`, `cz-customizable`
+####You need to install two libraries: `commitizen`, `cz-customizable`
 
 ```bash
   npm i -D commitizen cz-customizable
