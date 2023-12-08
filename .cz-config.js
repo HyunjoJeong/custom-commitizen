@@ -20,8 +20,13 @@ module.exports = {
       name: "🚚 chore:\tChanges to the build process or auxiliary tools\n\t\tand libraries such as documentation generation",
     },
   ],
+  messages: {
+    type: "Select type of commit:",
+    subject: "commit message:",
+    body: "extra commit message:",
+  },
   allowCustomScopes: false,
   allowBreakingChanges: ["feat", "fix"],
-  skipQuestions: ["body", "footer"],
+  skipQuestions: ["footer"],
   subjectLimit: 100,
 };
