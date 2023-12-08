@@ -9,11 +9,6 @@
     "lint": "next lint",
     "commit": "git add . && cz"
   },
-  "config": {
-    "commitizen": {
-      "path": "cz-customizable"
-    }
-  },
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
