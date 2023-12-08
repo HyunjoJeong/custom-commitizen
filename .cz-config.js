@@ -11,7 +11,7 @@ module.exports = {
   messages: {
     type: "commit type:",
     subject: "commit message:",
-    body: "extra commit message: (Optional)",
+    body: "extra commit message (optional):",
     confirmCommit: "press Enter to proceed commit (n key to abort)",
   },
   allowCustomScopes: false,
