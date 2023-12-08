@@ -1,27 +1,11 @@
 {
-  "name": "commitizen",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "commit": "git add . && cz"
-  },
-  "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.3"
+    "git": "git add . && cz && git push"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
     "commitizen": "^4.3.0",
-    "cz-customizable": "^7.0.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.3",
-    "typescript": "^5"
+    "cz-customizable": "^7.0.0"
   }
 }
