@@ -22,6 +22,6 @@ module.exports = {
   ],
   allowCustomScopes: false,
   allowBreakingChanges: ["feat", "fix"],
-  skipQuestions: ["body", "issue"],
+  skipQuestions: ["footer"],
   subjectLimit: 100,
 };
